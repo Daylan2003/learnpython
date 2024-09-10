@@ -80,8 +80,13 @@ for x in capitals.values():
 
 #We can also change dictionaries using the update method
           
-capitals.update({'Germany':'Berlin'})  
+capitals.update({'Germany':'Berlin'}) 
+capitals.update({'Germany':'Las Vegas'}) # We can also update existing keys with a new value
 
 for x,y in capitals.items():
     print(x, y)
+
+capitals.pop('China') # This will remove the key:value pair
+capitals.clear() # This will remove everything 
+   
 
