@@ -51,6 +51,7 @@ except PermissionError:
 #modules, A module is a file containing python code. Mau contain functions, classes, etc.           
 
 import messages as msg
+from messages import hello,bye
 
 msg.hello()
 msg.bye()

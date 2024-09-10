@@ -1,4 +1,4 @@
-import messages as msg
+import messages 
 
 def hello():
     print("Hello! Have a nice day!")
