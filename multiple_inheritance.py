@@ -25,3 +25,6 @@ rabbit.flee()
 hawk.hunt()
 fish.flee()
 fish.hunt()
+
+list = []
+list.app
