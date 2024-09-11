@@ -18,3 +18,7 @@ print(passed_students)
 
 passed_students = [i if i >= 60 else "Failed" for i in students]
 print(passed_students)
+
+students = [99,98,50,40,30,12,99,100,100,50,]
+
+passed_students = [i for i in students if i >= 60]
